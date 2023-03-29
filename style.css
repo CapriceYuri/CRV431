@@ -99,7 +99,7 @@ body {
     font-weight: bolder;
 }
 
-a {
+.nav-item > a {
     display: inline-block;
     color: green;
     text-decoration: none;
@@ -108,13 +108,13 @@ a {
     cursor: pointer;
 }
 
-a:hover {
+.nav-item > a:hover {
     color: red;
     transform: scale(1.2);
     border-bottom: solid 2px red;
 }
 
-.location {
+#location {
     color: red;
     border-bottom: solid 2px red;
     font-size: 1.75em;
@@ -127,7 +127,8 @@ a:hover {
     border-bottom: solid 1px #38598b;
 }
 
-.trial-main {
+.trial-main,
+.art-main {
     padding: 10px;
 }
 
@@ -135,12 +136,14 @@ a:hover {
     text-align: center;
     font-size: 2em;
 }
-.trial-style{
+
+.trial-style {
     background-color: #38598b;
     color: white;
     border-radius: 15px;
     font-size: 1.15em;
 }
+
 .trial-point-header {
     display: inline-block;
     width: 25%;
@@ -149,7 +152,8 @@ a:hover {
     font-weight: bold;
     color: red;
 }
-.trial-status{
+
+.trial-status {
     display: inline-block;
     background-color: green;
     color: peachpuff;
@@ -158,17 +162,56 @@ a:hover {
     text-align: center;
     width: 25%;
 }
-.trial-point-content{
+
+.trial-point-content {
     font-size: 1.15em;
     padding: 5px;
     margin-top: 5px;
 }
-#partner{
+
+#partner {
     background-color: red;
 }
-#completion{
+
+#completion {
     background-color: blue;
 }
-.upcoming{
+
+.upcoming {
     background-color: purple;
+}
+
+/* Articles Styling */
+.art-main>h1 {
+    text-align: center;
+    font-size: 2em;
+}
+
+.art-header {
+    display: inline-block;
+    background-color: #38598b;
+    color: peachpuff;
+    border-radius: 15px;
+    font-size: 1.35em;
+    text-align: center;
+    width: 75%;
+}
+
+.art-content {
+    background-color: #38598b;
+    color: white;
+    border-radius: 15px;
+    font-size: 1.15em;
+    font-size: 1.15em;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.link{
+    color: red;
+    font-size: 1em;
+    text-decoration: none;
+}
+.link:hover{
+    color: peachpuff;
 }
