@@ -8,7 +8,12 @@ body {
     height: 100vh;
     background-color: peachpuff;
 }
-
+.watermark{
+    position: absolute;
+    font-size: 9em;
+    opacity: 0.10;
+    transform: translate(50%) rotate(-45deg);
+}
 .top-content {
     display: flex;
     height: 100px;
@@ -84,4 +89,22 @@ body {
 .first-letter::first-letter{
     font-size: 1.2em;
     font-weight: bolder;
+}
+a{
+    display: inline-block;
+    color: green;
+    text-decoration: none;
+    font-size: 1.5em;
+    transition: .5s linear;
+    cursor: pointer;
+}
+a:hover{
+    color: red;
+    transform: scale(1.2);
+    border-bottom: solid 2px red;
+}
+.location{
+    color: red;
+    border-bottom: solid 2px red;
+    font-size: 1.75em;
 }
