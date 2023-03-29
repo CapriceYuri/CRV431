@@ -12,11 +12,12 @@ body {
     position: absolute;
     font-size: 9em;
     opacity: 0.10;
-    transform: translate(50%) rotate(-45deg);
+    transform: translate(25%);
 }
 .top-content {
     display: flex;
     height: 100px;
+    width: 100%;
     align-items: center;
     text-align: center;
 }
@@ -49,6 +50,7 @@ body {
 .preview {
     background-color: #38598b;
     height: 20vh;
+    width: 100%;
     display: flex;
     align-items: center;
 }
@@ -77,17 +79,17 @@ body {
     flex: .3;
     padding: 10px;
     border: solid 1px black;
-    font-size: 1.10em;
+    font-size: 1.20em;
 }
 .main-right{
     flex: .7;
     border: solid 1px black;
     padding: 10px;
-    font-size: 1.10em;
+    font-size: 1.20em;
 }
 /* Add-on */
 .first-letter::first-letter{
-    font-size: 1.2em;
+    font-size: 1.4em;
     font-weight: bolder;
 }
 a{
@@ -107,4 +109,10 @@ a:hover{
     color: red;
     border-bottom: solid 2px red;
     font-size: 1.75em;
+}
+/* Trial.html Styling */
+.img{
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 1px #38598b;
 }
