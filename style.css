@@ -8,12 +8,14 @@ body {
     height: 100vh;
     background-color: peachpuff;
 }
-.watermark{
+
+.watermark {
     position: absolute;
     font-size: 9em;
     opacity: 0.10;
     transform: translate(25%);
 }
+
 .top-content {
     display: flex;
     height: 100px;
@@ -71,28 +73,33 @@ body {
     padding-left: 10px;
     border-left: solid 5px peachpuff;
 }
+
 /* Layer 2 Section */
-.main-content{
+.main-content {
     display: flex;
 }
-.main-left{
+
+.main-left {
     flex: .3;
     padding: 10px;
     border: solid 1px black;
     font-size: 1.20em;
 }
-.main-right{
+
+.main-right {
     flex: .7;
     border: solid 1px black;
     padding: 10px;
     font-size: 1.20em;
 }
+
 /* Add-on */
-.first-letter::first-letter{
+.first-letter::first-letter {
     font-size: 1.4em;
     font-weight: bolder;
 }
-a{
+
+a {
     display: inline-block;
     color: green;
     text-decoration: none;
@@ -100,19 +107,62 @@ a{
     transition: .5s linear;
     cursor: pointer;
 }
-a:hover{
+
+a:hover {
     color: red;
     transform: scale(1.2);
     border-bottom: solid 2px red;
 }
-.location{
+
+.location {
     color: red;
     border-bottom: solid 2px red;
     font-size: 1.75em;
 }
+
 /* Trial.html Styling */
-.img{
+.img {
     display: flex;
     justify-content: center;
     border-bottom: solid 1px #38598b;
+}
+
+.trial-main {
+    padding: 10px;
+}
+
+.trial-main>h1 {
+    text-align: center;
+    font-size: 2em;
+}
+.trial-style{
+    background-color: #38598b;
+    color: white;
+    border-radius: 15px;
+    font-size: 1.15em;
+}
+.trial-point-header {
+    display: inline-block;
+    width: 25%;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    color: red;
+}
+.trial-status{
+    display: inline-block;
+    background-color: green;
+    color: peachpuff;
+    border-radius: 15px;
+    font-size: 1.35em;
+    text-align: center;
+    width: 25%;
+}
+.trial-point-content{
+    font-size: 1.15em;
+    padding: 5px;
+    margin-top: 5px;
+}
+#partner{
+    background-color: red;
 }
