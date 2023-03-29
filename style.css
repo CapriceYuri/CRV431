@@ -126,7 +126,6 @@ body {
     justify-content: center;
     border-bottom: solid 1px #38598b;
 }
-
 .trial-main,
 .art-main {
     padding: 10px;
@@ -214,4 +213,86 @@ body {
 }
 .link:hover{
     color: peachpuff;
+}
+/* GIF Animations */
+.animation{
+    animation: spins 4s linear;
+    animation-iteration-count: infinite;
+}
+@keyframes spins {
+    100%{
+        transform: rotate(360deg);
+    }
+    66%{
+        transform: translate(-25%) rotate(240deg);
+    }
+    33%{
+        transform: translate(25%) rotate(120deg);
+    }
+}
+.cycle-a{
+    animation: Aspins 6s linear infinite;
+}
+@keyframes Aspins {
+    66%{
+        transform: translate(-15%) rotate(-180deg);
+    }
+    33%{
+        transform: translate(20%) rotate(-90deg);
+    }
+}.cycle-b{
+    animation: Bspins 6s linear infinite;
+}
+@keyframes Bspins {
+    66%{
+        transform: translate(-20%) rotate(60deg);
+    }
+    33%{
+        transform: translate(20%) rotate(180deg);
+    }
+}.cycle-d{
+    animation: Dspins 6s linear infinite;
+}
+@keyframes Dspins {
+
+    66%{
+        transform: translate(15%) rotate(120deg);
+    }
+    33%{
+        transform: translate(-15%) rotate(180deg);
+    }
+}
+/* FREE Recofilstat */
+#free{
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: .5;
+    animation: roaming 15s linear alternate infinite;
+}
+@keyframes roaming {
+    30%{
+        transform: translate(-300%, 50%) rotate(-180deg);
+    }
+    60%{
+        transform: translate(-200%,500%) rotate(-360deg);
+    }
+}
+#free2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: .5;
+    animation: roaming2 15s linear alternate infinite;
+}
+@keyframes roaming2 {
+    20%{
+        transform: translate(300%,200%) rotate(90deg);
+    }
+    40%{
+        transform: translate(200%,450%) rotate(180deg);
+    }
+    80%{
+        transform: translate(50%,0%) rotate(360deg);
+    }
 }
