@@ -215,7 +215,7 @@ body {
     color: peachpuff;
 }
 /* GIF Animations */
-.animation{
+/* .animation{
     animation: spins 4s linear;
     animation-iteration-count: infinite;
 }
@@ -261,7 +261,7 @@ body {
     33%{
         transform: translate(-15%) rotate(180deg);
     }
-}
+} */
 /* FREE Recofilstat */
 #free{
     position: absolute;
