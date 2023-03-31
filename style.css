@@ -357,6 +357,16 @@ body::-webkit-scrollbar {
     align-items: center;
     justify-content: center;
 }
+.title{
+    width: 30%;
+    color: peachpuff;
+    background-color: #5f6caf;
+}
+.insider{
+    width: 30%;
+    color: peachpuff;
+    background-color: #ff5722;
+}
 .date{
     width: 20%;
     background-color: lightgreen;
@@ -368,14 +378,4 @@ body::-webkit-scrollbar {
     width: 50%;
     background-color: lightcyan;
     color: #007cb9;
-}
-.title{
-    width: 30%;
-    color: peachpuff;
-    background-color: #5f6caf;
-}
-.insider{
-    width: 30%;
-    color: peachpuff;
-    background-color: #ff5722;
 }
