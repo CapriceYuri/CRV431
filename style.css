@@ -346,13 +346,11 @@ body::-webkit-scrollbar {
 }
 .holder-content{
     text-align: center;
-    width: 20%;
     height: 50px;
     color: #007cb9;
     border-radius: 15px;
     font-size: 1.5em;
     font-style: italic;
-    background-color: #5f6caf;
     padding: 5px;
 }
 .stacking{
@@ -361,6 +359,7 @@ body::-webkit-scrollbar {
     justify-content: center;
 }
 .date{
+    width: 20%;
     background-color: lightgreen;
     border-right: solid 5px peachpuff;
     border-left: solid 5px peachpuff;
@@ -372,7 +371,10 @@ body::-webkit-scrollbar {
 .title{
     width: 30%;
     color: peachpuff;
+    background-color: #5f6caf;
 }
 .insider{
+    width: 30%;
+    color: peachpuff;
     background-color: #ff5722;
 }
