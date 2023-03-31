@@ -9,6 +9,10 @@ body {
     background-color: peachpuff;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 .watermark {
     position: absolute;
     font-size: 9em;
@@ -18,14 +22,10 @@ body {
 
 .top-content {
     display: flex;
-    height: 100px;
+    height: 10%;
     width: 100%;
     align-items: center;
     text-align: center;
-}
-
-.head-item {
-    flex: 1;
 }
 
 .header {
@@ -37,12 +37,13 @@ body {
 
 .nav {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex: .6;
 }
 
 .nav-item {
     flex: 1;
-    align-items: center;
     font-weight: bold;
     font-size: 1.25em;
     color: #38598b;
@@ -94,18 +95,20 @@ body {
 }
 
 /* Add-on */
-.important{
+.important {
     color: #b83b5e;
 }
-.offering{
+
+.offering {
     color: #588c73;
 }
+
 .first-letter::first-letter {
     font-size: 1.4em;
     font-weight: bolder;
 }
 
-.nav-item > a {
+.nav-item>a {
     display: inline-block;
     color: #38598b;
     text-decoration: none;
@@ -114,7 +117,7 @@ body {
     cursor: pointer;
 }
 
-.nav-item > a:hover {
+.nav-item>a:hover {
     color: red;
     transform: scale(1.2);
     border-bottom: solid 2px red;
@@ -141,6 +144,7 @@ body {
     color: #005689;
     border-bottom: solid 5px orange;
 }
+
 .trial-point-header {
     text-align: center;
     margin: 0 auto;
@@ -195,6 +199,7 @@ body {
     border-bottom: solid 5px orange;
 
 }
+
 .art-header {
     display: flex;
     justify-content: center;
@@ -214,6 +219,7 @@ body {
     padding: 5px;
     border-bottom: solid 5px orange;
 }
+
 .poster {
     display: flex;
     justify-content: center;
@@ -225,14 +231,17 @@ body {
     font-style: italic;
     margin: 0 auto;
 }
-.link{
+
+.link {
     color: red;
     font-size: 1em;
     text-decoration: none;
 }
-.link:hover{
+
+.link:hover {
     color: peachpuff;
 }
+
 /* GIF Animations */
 /* .animation{
     animation: spins 4s linear;
@@ -282,36 +291,42 @@ body {
     }
 } */
 /* FREE Recofilstat */
-#free{
+#free {
     position: absolute;
     right: 0;
     top: 0;
     opacity: .5;
     animation: roaming 15s linear alternate infinite;
 }
+
 @keyframes roaming {
-    30%{
+    30% {
         transform: translate(-300%, 50%) rotate(-180deg);
     }
-    60%{
-        transform: translate(-200%,400%) rotate(-360deg);
+
+    60% {
+        transform: translate(-200%, 400%) rotate(-360deg);
     }
 }
-#free2{
+
+#free2 {
     position: absolute;
     left: 0;
     top: 0;
     opacity: .5;
     animation: roaming2 15s linear alternate infinite;
 }
+
 @keyframes roaming2 {
-    20%{
-        transform: translate(300%,200%) rotate(90deg);
+    20% {
+        transform: translate(300%, 200%) rotate(90deg);
     }
-    40%{
-        transform: translate(200%,400%) rotate(180deg);
+
+    40% {
+        transform: translate(200%, 400%) rotate(180deg);
     }
-    80%{
-        transform: translate(50%,0%) rotate(360deg);
+
+    80% {
+        transform: translate(50%, 0%) rotate(360deg);
     }
 }
