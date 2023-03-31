@@ -126,49 +126,45 @@ body {
     justify-content: center;
     border-bottom: solid 1px #38598b;
 }
-.trial-main,
-.art-main {
-    padding: 10px;
-}
 
 .trial-main>h1 {
     text-align: center;
-    font-size: 2em;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 3em;
+    color: #005689;
+    border-bottom: solid 5px orange;
 }
-
-.trial-style {
-    background-color: #38598b;
-    color: white;
-    border-radius: 10px;
-    font-size: 1.15em;
-}
-
 .trial-point-header {
-    display: inline-block;
-    width: 25%;
-    font-size: 1.5em;
     text-align: center;
+    margin: 0 auto;
+    color: #007cb9;
+    border-radius: 15px;
+    font-size: 1.5em;
     font-style: italic;
-    color: orange;
     padding: 5px;
 }
 
 .trial-status {
-    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
     background-color: green;
     color: peachpuff;
     border-radius: 15px;
     font-size: 1.35em;
-    text-align: center;
-    width: 25%;
-    padding: 5px;
+    width: 20%;
+    font-style: italic;
+    margin: 0 auto;
 }
 
 .trial-point-content {
+    width: 60%;
+    margin: 0 auto;
+    text-align: left;
+    color: #44558f;
     font-size: 1.15em;
     padding: 5px;
-    margin-top: 5px;
-    opacity: .9;
+    border-bottom: solid 5px orange;
 }
 
 .partner {
@@ -186,40 +182,42 @@ body {
 /* Articles Styling */
 .art-main>h1 {
     text-align: center;
-    font-size: 2em;
-}
+    width: 50%;
+    margin: 0 auto;
+    font-size: 3em;
+    color: #005689;
+    border-bottom: solid 5px orange;
 
+}
 .art-header {
-    display: inline-block;
-    background-color: #38598b;
-    color: orange;
+    display: flex;
+    justify-content: center;
+    color: #007cb9;
     border-radius: 15px;
     font-size: 1.5em;
-    text-align: center;
-    width: 60%;
     font-style: italic;
     padding: 5px;
 }
 
 .art-content {
-    background-color: #38598b;
-    color: white;
-    border-radius: 15px;
-    font-size: 1.15em;
+    width: 60%;
+    margin: 0 auto;
+    text-align: left;
+    color: #44558f;
     font-size: 1.15em;
     padding: 5px;
-    margin-top: 5px;
-    opacity: .9;
+    border-bottom: solid 5px orange;
 }
 .poster {
-    display: inline-block;
-    background-color: blue;
-    color: peachpuff;
+    display: flex;
+    justify-content: center;
+    background-color: #ffc97b;
+    color: #44558f;
     border-radius: 15px;
     font-size: 1.35em;
-    text-align: center;
     width: 20%;
     font-style: italic;
+    margin: 0 auto;
 }
 .link{
     color: red;
