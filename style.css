@@ -352,7 +352,7 @@ body::-webkit-scrollbar {
     border-radius: 15px;
     font-size: 1.5em;
     font-style: italic;
-    background-color: orange;
+    background-color: #5f6caf;
     padding: 5px;
 }
 .stacking{
@@ -371,6 +371,7 @@ body::-webkit-scrollbar {
 }
 .title{
     width: 30%;
+    color: peachpuff;
 }
 .insider{
     background-color: #ff5722;
