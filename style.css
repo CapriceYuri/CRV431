@@ -347,7 +347,6 @@ body::-webkit-scrollbar {
 .holder-content{
     text-align: center;
     height: 50px;
-    color: #007cb9;
     border-radius: 15px;
     font-size: 1.5em;
     font-style: italic;
@@ -363,10 +362,12 @@ body::-webkit-scrollbar {
     background-color: lightgreen;
     border-right: solid 5px peachpuff;
     border-left: solid 5px peachpuff;
+    color: #007cb9;
 }
 .shares{
     width: 50%;
     background-color: lightcyan;
+    color: #007cb9;
 }
 .title{
     width: 30%;
