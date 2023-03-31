@@ -119,14 +119,12 @@ body::-webkit-scrollbar {
 
 .nav-item>a:hover {
     color: red;
-    transform: scale(1.2);
     border-bottom: solid 2px red;
 }
 
 #location {
     color: red;
     border-bottom: solid 2px red;
-    font-size: 1.75em;
 }
 
 /* Trial.html Styling */
@@ -197,7 +195,6 @@ body::-webkit-scrollbar {
     font-size: 3em;
     color: #005689;
     border-bottom: solid 5px orange;
-
 }
 
 .art-header {
@@ -329,4 +326,46 @@ body::-webkit-scrollbar {
     80% {
         transform: translate(50%, 0%) rotate(360deg);
     }
+}
+/* holders.html Section */
+.holder-main>h1 {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 3em;
+    color: #005689;
+    border-bottom: solid 5px orange;
+}
+.hold-content-wrapper{
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+}
+.holder-content{
+    text-align: center;
+    width: 20%;
+    height: 50px;
+    color: #007cb9;
+    border-radius: 15px;
+    font-size: 1.5em;
+    font-style: italic;
+    background-color: orange;
+    padding: 5px;
+}
+.stacking{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.date{
+    background-color: lightgreen;
+    border-right: solid 5px peachpuff;
+    border-left: solid 5px peachpuff;
+}
+.shares{
+    width: 50%;
+    background-color: lightcyan;
+}
+.title{
+    width: 30%;
 }
