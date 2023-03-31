@@ -328,6 +328,9 @@ body::-webkit-scrollbar {
     }
 }
 /* holders.html Section */
+.holder-main{
+    padding-bottom: 10px;
+}
 .holder-main>h1 {
     text-align: center;
     width: 50%;
@@ -368,4 +371,7 @@ body::-webkit-scrollbar {
 }
 .title{
     width: 30%;
+}
+.insider{
+    background-color: #ff5722;
 }
