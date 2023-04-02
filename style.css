@@ -367,6 +367,13 @@ body::-webkit-scrollbar {
     color: peachpuff;
     background-color: #ff5722;
 }
+.option{
+    width: 20%;
+    background-color: #5585b5;
+    border-right: solid 5px peachpuff;
+    border-left: solid 5px peachpuff;
+    color: peachpuff;
+}
 .date{
     width: 20%;
     background-color: lightgreen;
